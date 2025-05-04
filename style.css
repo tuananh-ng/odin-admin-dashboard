@@ -170,6 +170,11 @@ img[class="icon"] {
     border-left: 8px solid var(--secondary-color);
     box-shadow: var(--card-box-shadow);
 }
+.project-item > p:nth-child(2) {
+    height: 10rem;
+    overflow: scroll;
+    text-wrap: wrap;
+}
 
 .announcements {
     grid-area: 1 / 2 / 2 / -1;
