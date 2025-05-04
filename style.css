@@ -229,6 +229,25 @@ img[class="icon"] {
     border-radius: var(--card-border-radius);
     box-shadow: var(--card-box-shadow);
 }
+.trending-item {
+    display: grid;
+    grid-template-columns: 0.1fr minmax(min-content, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 6px;
+}
+.trending-item > .profile-placeholder {
+    grid-row: 1 / -1;
+    place-self: center;
+    width: min(100%, 40px);
+    height: min(100%, 20px);
+    border-radius: 80px;
+}
+.trending-item:nth-child(odd) > .profile-placeholder {
+    background-color: var(--secondary-color);
+}
+.trending-item:nth-child(even) > .profile-placeholder {
+    background-color: var(--primary-color);
+}
 
 .projects > p,
 .announcements > p,
