@@ -259,3 +259,8 @@ img[class="icon"] {
 .announcement-item > p:first-child {
     font-weight: bold;
 }
+.project-item > p:first-child + p,
+.announcement-item > p:first-child + p,
+.trending-item > p:last-child {
+    color: var(--main-text-color);
+}
