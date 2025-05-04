@@ -116,6 +116,15 @@ img[class="icon"] {
 
 .sidebar {
     grid-row: 1 / -1;
+    display: grid;
+    grid-template-rows: minmax(40px, 0.01fr) minmax(min-content, 0.2fr) minmax(min-content, 0.1fr);
+    row-gap: 40px;
+    align-items: start;
+
+    padding: 12px 18px;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: bold;
 }
 
 .content {
