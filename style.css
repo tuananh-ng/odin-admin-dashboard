@@ -172,7 +172,7 @@ img[class="icon"] {
 }
 .project-item > p:nth-child(2) {
     height: 10rem;
-    overflow: scroll;
+    overflow: auto;
     text-wrap: wrap;
 }
 .project-icons {
@@ -209,7 +209,7 @@ img[class="icon"] {
     padding: 8px 0;
 }
 .announcement-item > p:last-child {
-    overflow: scroll;
+    overflow: auto;
     text-wrap: wrap;
     height: 4rem;
 }
@@ -219,6 +219,15 @@ img[class="icon"] {
 
 .trending {
     grid-area: 2 / 2 / -1 / -1;
+}
+.trending-container {
+    display: grid;
+    gap: 14px;
+
+    background-color: white;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-box-shadow);
 }
 
 .projects > p,
