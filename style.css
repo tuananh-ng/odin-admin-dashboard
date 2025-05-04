@@ -193,6 +193,17 @@ img[class="icon"] {
 .announcements {
     grid-area: 1 / 2 / 2 / -1;
 }
+.announcement-container {
+    display: grid;
+    gap: 10px;
+    height: clamp(200px, 30%, 1fr);
+    width: minmax(400px, 1fr);
+
+    background-color: white;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    box-shadow: var(--card-box-shadow);
+}
 
 .trending {
     grid-area: 2 / 2 / -1 / -1;
