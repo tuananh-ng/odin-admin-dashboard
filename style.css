@@ -117,7 +117,7 @@ img[class="icon"] {
 .sidebar {
     grid-row: 1 / -1;
     display: grid;
-    grid-template-rows: minmax(40px, 0.01fr) minmax(min-content, 0.2fr) minmax(min-content, 0.1fr);
+    grid-template-rows: minmax(40px, 0.01fr) minmax(min-content, 0.15fr) minmax(min-content, 0.1fr);
     row-gap: 40px;
     align-items: start;
 
