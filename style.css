@@ -145,4 +145,11 @@ img[class="icon"] {
 
 .content {
     grid-area: 2 / 2 / -1 / -1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 10px;
+
+    background-color: #e2e8f0;
+    padding: 18px 18px 8px 28px;
 }
