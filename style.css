@@ -255,3 +255,7 @@ img[class="icon"] {
     font-weight: bold;
     margin-bottom: 12px;
 }
+.project-item > p:first-child,
+.announcement-item > p:first-child {
+    font-weight: bold;
+}
