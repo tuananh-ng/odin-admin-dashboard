@@ -165,3 +165,10 @@ img[class="icon"] {
 .trending {
     grid-area: 2 / 2 / -1 / -1;
 }
+
+.projects > p,
+.announcements > p,
+.trending > p {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
