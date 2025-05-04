@@ -80,6 +80,10 @@ img[class="icon"] {
 .header a {
     color: black;
 }
+.notification {
+    width: min-content;
+    justify-self: center;
+}
 .profile {
     display: grid;
     grid-template-columns: minmax(40px, 0.02fr) minmax(min-content, 1fr);
