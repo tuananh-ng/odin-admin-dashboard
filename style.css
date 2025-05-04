@@ -18,3 +18,9 @@ body {
     --card-box-shadow: 2px 4px 2px var(--shadow-color);
     --card-padding: 18px 26px;
 }
+input[type="text"] {
+    padding: 0 8px;
+    border-radius: var(--input-border-radius);
+    border-style: var(--input-border-style);
+    background-color: #e2e8f0;
+}
