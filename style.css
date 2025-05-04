@@ -93,7 +93,7 @@ img[class="icon"] {
     grid-template-rows: 1fr;
     gap: 6px;
 }
-.profile > .icon {
+.profile > .profile-placeholder {
     width: clamp(10px, 100%, 25px);
     height: clamp(20px, 90%, 30px);
     border-radius: 80px;
@@ -108,7 +108,7 @@ img[class="icon"] {
     grid-template-rows: repeat(2, 0.1fr);
     column-gap: 12px;
 }
-.greeting > .icon {
+.greeting > .profile-placeholder {
     width: clamp(40px, 100%, 60px);
     height: clamp(30px, 100%, 50px);
     border-radius: 100px;
