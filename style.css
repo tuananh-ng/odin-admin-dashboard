@@ -41,6 +41,10 @@ a {
     text-decoration: none;
     color: white;
 }
+img[class="icon"] {
+    width: clamp(20px, 5%, 40px);
+    height: clamp(20px, 5%, 40px);
+}
 
 .dashboard {
     display: grid;
