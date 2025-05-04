@@ -175,6 +175,20 @@ img[class="icon"] {
     overflow: scroll;
     text-wrap: wrap;
 }
+.project-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    justify-content: end;
+    column-gap: 8px;
+    margin-top: 18px;
+}
+.project-icons > button {
+    border: none;
+    padding: 0;
+    color: inherit;
+    width: inherit;
+    background-color: inherit;
+}
 
 .announcements {
     grid-area: 1 / 2 / 2 / -1;
