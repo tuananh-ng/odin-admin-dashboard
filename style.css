@@ -55,6 +55,12 @@ a {
     padding: 15px 30px;
     font-weight: bold;
 }
+.search-bar {
+    grid-column: 1 / 3;
+}
+.btns {
+    grid-column: 3 / 5;
+}
 .header a {
     color: black;
 }
