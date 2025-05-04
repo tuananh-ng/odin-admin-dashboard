@@ -157,6 +157,11 @@ img[class="icon"] {
 .projects {
     grid-area: 1 / 1 / -1 / 2;
 }
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 18px;
+}
 
 .announcements {
     grid-area: 1 / 2 / 2 / -1;
