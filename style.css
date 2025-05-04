@@ -135,6 +135,13 @@ img[class="icon"] {
     grid-template-columns: 1fr 4fr;
     column-gap: 4px;
 }
+.sidebar-container:first-child {
+    font-size: 1.5rem;
+}
+.sidebar-container:first-child img[class="icon"] {
+    width: 1.6rem;
+    height: 1.6rem;
+}
 
 .content {
     grid-area: 2 / 2 / -1 / -1;
