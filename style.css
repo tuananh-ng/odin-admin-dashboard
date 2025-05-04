@@ -204,6 +204,15 @@ img[class="icon"] {
     padding: var(--card-padding);
     box-shadow: var(--card-box-shadow);
 }
+.announcement-item {
+    text-wrap: nowrap;
+    padding: 8px 0;
+}
+.announcement-item > p:last-child {
+    overflow: scroll;
+    text-wrap: wrap;
+    height: 4rem;
+}
 
 .trending {
     grid-area: 2 / 2 / -1 / -1;
