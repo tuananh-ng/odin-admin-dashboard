@@ -24,3 +24,12 @@ input[type="text"] {
     border-style: var(--input-border-style);
     background-color: #e2e8f0;
 }
+button {
+    border-radius: var(--input-border-radius);
+    border-style: var(--input-border-style);
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 16px;
+}
