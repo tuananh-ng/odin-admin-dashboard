@@ -92,6 +92,19 @@ img[class="icon"] {
     border-radius: 80px;
     background-color: var(--secondary-color);
 }
+.greeting {
+    display: grid;
+    grid-template-columns: minmax(50px, 0.01fr) minmax(min-content, 0.5fr);
+    grid-template-rows: repeat(2, 0.1fr);
+    column-gap: 12px;
+}
+.greeting > .icon {
+    width: clamp(40px, 100%, 60px);
+    height: clamp(30px, 100%, 50px);
+    border-radius: 100px;
+    grid-row: 1 / -1;
+    background-color: var(--secondary-color);
+}
 
 .sidebar {
     grid-row: 1 / -1;
