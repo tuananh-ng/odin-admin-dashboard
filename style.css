@@ -153,3 +153,15 @@ img[class="icon"] {
     background-color: #e2e8f0;
     padding: 18px 18px 8px 28px;
 }
+
+.projects {
+    grid-area: 1 / 1 / -1 / 2;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / -1;
+}
+
+.trending {
+    grid-area: 2 / 2 / -1 / -1;
+}
