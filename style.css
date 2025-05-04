@@ -14,6 +14,7 @@ body {
     --main-text-color: #686868;
     --input-border-radius: 16px;
     --input-border-style: none;
+    --card-background-color: white;
     --card-border-radius: 8px;
     --card-box-shadow: 2px 4px 2px var(--shadow-color);
     --card-padding: 18px 26px;
@@ -164,7 +165,7 @@ img[class="icon"] {
     gap: 18px;
 }
 .project-item {
-    background-color: white;
+    background-color: var(--card-background-color);
     width: clamp(200px, 80%, 1fr);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -200,7 +201,7 @@ img[class="icon"] {
     height: clamp(200px, 30%, 1fr);
     width: minmax(400px, 1fr);
 
-    background-color: white;
+    background-color: var(--card-background-color);
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
     box-shadow: var(--card-box-shadow);
@@ -225,7 +226,7 @@ img[class="icon"] {
     display: grid;
     gap: 14px;
 
-    background-color: white;
+    background-color: var(--card-background-color);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     box-shadow: var(--card-box-shadow);
