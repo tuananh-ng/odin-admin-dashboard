@@ -49,7 +49,7 @@ img[class="icon"] {
 .dashboard {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: clamp(100px, 20%, 200px) 5fr;
+    grid-template-rows: clamp(100px, 20%, 150px) 5fr;
 }
 
 .header {
