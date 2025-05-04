@@ -126,6 +126,15 @@ img[class="icon"] {
     background-color: var(--primary-color);
     font-weight: bold;
 }
+.sidebar-container {
+    display: grid;
+    row-gap: 20px;
+}
+.sidebar-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 4px;
+}
 
 .content {
     grid-area: 2 / 2 / -1 / -1;
