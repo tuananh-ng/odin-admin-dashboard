@@ -55,6 +55,9 @@ a {
     padding: 15px 30px;
     font-weight: bold;
 }
+.header a {
+    color: black;
+}
 
 .sidebar {
     grid-row: 1 / -1;
