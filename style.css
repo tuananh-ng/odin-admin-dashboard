@@ -162,6 +162,14 @@ img[class="icon"] {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 18px;
 }
+.project-item {
+    background-color: white;
+    width: clamp(200px, 80%, 1fr);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    border-left: 8px solid var(--secondary-color);
+    box-shadow: var(--card-box-shadow);
+}
 
 .announcements {
     grid-area: 1 / 2 / 2 / -1;
