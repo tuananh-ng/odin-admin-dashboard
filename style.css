@@ -46,6 +46,14 @@ a {
 
 .header {
     grid-column: 2 / 4;
+
+    display: grid;
+    grid-template-columns: minmax(200px, 3fr) 1fr 0.5fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px 8px;
+    
+    padding: 15px 30px;
+    font-weight: bold;
 }
 
 .sidebar {
