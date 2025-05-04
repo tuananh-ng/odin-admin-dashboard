@@ -213,6 +213,9 @@ img[class="icon"] {
     text-wrap: wrap;
     height: 4rem;
 }
+.announcement-item:nth-child(n + 2) {
+    border-top: 2px solid #dfdfdf;
+}
 
 .trending {
     grid-area: 2 / 2 / -1 / -1;
